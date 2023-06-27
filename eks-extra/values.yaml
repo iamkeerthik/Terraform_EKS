@@ -1,0 +1,7 @@
+# clusterName: Terraform-eks-cluster
+# replicaCount: 1
+# namespace: kube-system
+serviceAccount:
+  create: false
+  name: aws-load-balancer-controller
+  namespace: kube-system
